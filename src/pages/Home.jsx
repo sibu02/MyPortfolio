@@ -37,7 +37,7 @@ const Home = () => {
             Download Resume
           </a>
           <a
-            href="contact"
+            href="/contact"
             className="bg-green-600 px-6 py-2 rounded hover:bg-green-700 transition"
           >
             Contact Me
