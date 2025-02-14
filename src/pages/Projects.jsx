@@ -44,7 +44,7 @@ const Projects = () => {
         key={idx}
         src={preview}
         alt={`Screenshot ${idx + 1}`}
-        className="h-[14rem] w-[14rem] rounded-lg object-cover"
+        className="h-[14rem] w-[20rem] rounded-lg object-cover"
       />
     </div>
   })
@@ -129,8 +129,8 @@ const Projects = () => {
                     disableDotsControls
                     responsive={{
                       0: { items: 2 },
-                      768: { items: 4 },
-                      1024: { items: 5 },
+                      768: { items: 3 },
+                      1024: { items: 4 },
                     }}
                   />
                 </div>
