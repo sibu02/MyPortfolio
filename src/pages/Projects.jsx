@@ -44,7 +44,7 @@ const Projects = () => {
         key={idx}
         src={preview}
         alt={`Screenshot ${idx + 1}`}
-        className="h-[14rem] w-[20rem] rounded-lg object-cover"
+        className="h-[14rem] w-full rounded-lg object-cover"
       />
     </div>
   })
